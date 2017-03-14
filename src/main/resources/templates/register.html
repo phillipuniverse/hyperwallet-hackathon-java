@@ -1,5 +1,93 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        <p th:text="'Hello!'"></p>
-    </body>
+<head>
+<title>HyperwalletHackathon</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token"
+    content="2cbRCkHYcNKKvk8vMQBHaEs4SXC/9kSkcAtyLY1ZJhE656SCnEDnWzfjKzxI7WOt1FI+XxC9f9wLrZdMwyByNQ==" />
+<link rel="stylesheet" media="all"
+    href="bootstrap.css"
+    data-turbolinks-track="reload" />
+<script
+    src="jquery.js"
+    data-turbolinks-track="reload"></script>
+<script
+    src="jqueryujs.js"
+    data-turbolinks-track="reload"></script>
+<script
+    src="turbolinks.js"
+    data-turbolinks-track="reload"></script>
+<script
+    src="file4.js"
+    data-turbolinks-track="reload"></script>
+</head>
+<body>
+    <div class="jumbotron" style="background-color: #F9F9F9">
+        <div class="container">
+            <form action="/register" accept-charset="UTF-8"
+                method="post">
+                <input name="utf8" type="hidden" value="&#x2713;" /><input
+                    type="hidden" name="authenticity_token"
+                    value="U0jlq4h0y3lLpmQps4dRcrlo/hsp4SQrtA0E53G3W8pkM+9cyjIsgZMYDbjHKL1RpZ6++/QSsjFm+TEBuE2AsQ==" />
+                <div class='fname' style="color: #808782">Enter
+                    your first name</div>
+                <div class="well" style="color: #808782">
+                    <input type="text" name="firstName" id="search"
+                        placeholder="John" style="width: 90%;" />
+                </div>
+                <div class='lname' style="color: #808782">Enter
+                    your last name</div>
+                <div class="well" style="color: #808782">
+                    <input type="text" name="lastName" id="search"
+                        placeholder="Doe" style="width: 90%;" />
+                </div>
+                <div class='phonenum' style="color: #808782">
+
+                    Enter your phone number</div>
+                <div class="well" style="color: #808782">
+                    <input type="text" name="phone" id="search"
+                        placeholder="111 111 1111" style="width: 90%;" />
+                </div>
+                <div class='email' style="color: #808782">Enter
+                    your email</div>
+                <div class="well" style="color: #808782">
+                    <input type="text" name="email" id="search"
+                        placeholder="johndoe@gmail.com"
+                        style="width: 90%;" />
+                </div>
+                <div class='address' style="color: #808782">Enter
+                    your address</div>
+                <div class="well" style="color: #808782">
+                    <input type="text" name="address" id="search"
+                        placeholder="1234 Mockingbird Lane"
+                        style="width: 90%;" />
+                </div>
+                <div class='city' style="color: #808782">Enter
+                    your city</div>
+                <div class="well" style="color: #808782">
+                    <input type="text" name="city" id="search"
+                        placeholder="Austin" style="width: 90%;" />
+                </div>
+                <div class='state' style="color: #808782">Enter
+                    your state</div>
+                <div class="well" style="color: #808782">
+                    <input type="text" name="state" id="search"
+                        placeholder="Texas" style="width: 90%;" />
+                </div>
+                <div class='zip' style="color: #808782">Enter your
+                    address</div>
+                <div class="well" style="color: #808782">
+                    <input type="text" name="zip" id="search"
+                        placeholder="Zip" style="width: 90%;" />
+                </div>
+                <div class="submit">
+                    <input type="submit" name="commit" value="Submit"
+                        class="btn btn-default" style="float: right;"
+                        data-disable-with="Submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <img src="/visaatx.JPG" />
+</body>
 </html>
